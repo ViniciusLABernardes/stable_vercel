@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { useRouter } from "next/navigation";
 import { LateralNav } from "@/components/lateralNav/LateralNav";
 export default function UsoEnergiaRegiao() {
 

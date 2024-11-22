@@ -11,7 +11,7 @@ export default function CadastroConsumidor() {
     const [nivelConsumo, setNivelConsumo] = useState(0);
     const [prioridade, setPrioridade] = useState(0);
     const [regiao, setRegiao] = useState("");
-    const [status, setStatus] = useState("Ativo");
+    const [status] = useState("Ativo");
     const [emissaoCarbono, setEmissaoCarbono] = useState(0);
     const [tipoFonte, setTipoFonte] = useState(""); // Fonte de energia
     const [login, setLogin] = useState(""); // Login do cliente

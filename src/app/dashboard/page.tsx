@@ -2,9 +2,7 @@
 
 import { LateralNav } from "@/components/lateralNav/LateralNav";
 import axios from "axios";
-import { Inter } from "next/font/google";
 import { useEffect, useState } from "react";
-import loading from "../loading";
 
 export default function Dashboard() {
     const [login, setLogin] = useState<string | null>(null);
