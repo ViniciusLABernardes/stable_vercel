@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --preto: #000000;
+    --cinza-escuro: #3C3C3C;
+    --cinza-claro: #F6F6F6;
+    --branco: #ffffff;
+    --cor-p1: #21a321;
+    --cor-p2: #66fc58;
+    --cor-p3: #C0ECFF;
+    --cor-p4: #000210;
+    --cor-p5: #195731;
+}
+body{
+    @apply bg-[#FCFCFC]
+}
+.container{
+    @apply px-5 py-[40px] sm:py-[80px] md:py-[120px] max-w-screen-2xl mx-auto
+}
+
+.botao{
+    @apply bg-corP1 text-branco uppercase py-4 px-8 rounded-lg text-base font-semibold cursor-pointer self-center hover:bg-corP5 hover:text-branco transition-colors inline-block;
+}
+.text{
+    @apply text-2xl text-cinzaEscuro;
+}
+.formContainer{
+    @apply py-20 max-w-[400px] relative;
+}
+.logoForm{
+    @apply w-[230px] mx-auto mb-5;
+}
+.titleForm{
+    @apply text-2xl font-semibold text-center mb-[10px];
+}
+.subtitleForm{
+    @apply text-[#3c3c3c] text-center mb-10;
+}
+.labelForm{
+    @apply block font-semibold mb-[10px];
+}
+.inputsForm{
+    @apply border-1 border-solid border-[#a3a3a3] rounded p-[10px] w-full box-border focus:outline-none focus:border-corP1;
+}
