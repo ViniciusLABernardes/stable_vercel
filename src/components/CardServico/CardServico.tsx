@@ -1,11 +1,11 @@
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 
 import { Inter, Roboto } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 
 interface CardServicoProps {
-    imageSrc: string;
+    imageSrc: string | StaticImageData;
     imageAlt: string;
     title: string;
     description: string;
