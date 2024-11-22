@@ -1,5 +1,7 @@
 # **Stable**
 
+## Link para o site upado no vercel: https://stable-peach.vercel.app/
+## OBS: Para a aplicação funcionar, extraia a pasta compactada contendo o projeto java e rode o projeto
 
 # *Sistema de Monitoramento e Redistribuição de Energia*
 

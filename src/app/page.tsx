@@ -62,7 +62,7 @@ export default function PageHome() {
               description="Adicione novos consumidores a sua empresa de acordo com a região deles e a fonte que será utilizada inicialmente"
             />
           </div>
-          <a className="botao text-center">UTILIZE O SERVIÇO</a>
+          <Link href="/login" className="botao text-center">UTILIZE O SERVIÇO</Link>
 
         </div>
       </section>

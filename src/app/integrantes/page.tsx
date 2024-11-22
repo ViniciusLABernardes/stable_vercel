@@ -26,17 +26,17 @@ export default function Integrantes() {
                         rm='RM559196'
                         turma='Turma TDSPY'
                         linkGithub='https://github.com/Brendon-Brasil'
-                        linkLinkedin='https://www.linkedin.com/in/brendon-119970236/'
+                        linkLinkedin='https://www.linkedin.com/in/brendon-brasil-941621267/'
                     />
                 </li>
                 <li>
                     <CardIntegrante
                         foto={daviGithub}
-                        nome='David Gomes'
-                        rm='RM6607'
+                        nome='David Rapeckman'
+                        rm='RM556607'
                         turma='Turma TDSPY'
                         linkGithub='https://github.com/David-Rapeckman'
-                        linkLinkedin='https://www.linkedin.com/in/davidrapeckman/'
+                        linkLinkedin='https://br.linkedin.com/in/davidrapeckman'
                     />
                 </li>
                 <li>
